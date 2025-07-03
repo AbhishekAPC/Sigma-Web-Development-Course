@@ -11,4 +11,4 @@ Video-2
 	-live preview
 3- link css & js files
 	 <link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+	<script src="script.js"></script> 
