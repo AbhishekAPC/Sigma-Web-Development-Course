@@ -57,23 +57,6 @@ main {
     padding: 10px;
 }
 
-#audioid{
-    width: 100%;
-    background-color: rgb(227, 201, 163);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.audio-block {
-    display: flex;
-    width: 30%;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    margin: 10px;
-    padding: 20px;
-}
-
 footer{
     background-color: black;
     color: white;
@@ -81,4 +64,40 @@ footer{
     padding: 3px;
     text-align: center;
 
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(118, 170, 34);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+
+#audioid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(218, 123, 123); */
+}
+
+.audio-block {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 46%;
+    margin: 5px;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(229, 178, 178);
+    border-radius: 10px;
+}
+.audio-block p {
+ text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+audio {
+    width: 100%;
 }

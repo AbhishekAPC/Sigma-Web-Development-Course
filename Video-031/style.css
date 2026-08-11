@@ -4,7 +4,7 @@
 }
 
  body {
-            background-color: red;
+            background-color: rgb(230, 155, 155);
         }
 
         @media screen and (orientation: portrait) {
@@ -16,7 +16,7 @@
         @media only screen and (max-width: 455px){
             body{
 
-                background-color: blue;
+                background-color: rgb(92, 173, 84);
             }
             
             .boxes{
